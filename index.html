@@ -20,20 +20,20 @@
         <div class="container bg-light p-5">
 
             <!-- title -->
-            <h2 class="text-danger text-center pb-5">Currency Exchange Rate API</h2>
+            <h2 class="text-danger text-center pb-5">Free Currency Conversion</h2>
 
             <div class="row gx-4 gy-1">
 
                 <!-- sample or from value -->
                 <div class="col-md-5">
-                    <label for="sampleValue" class="form-label fw-bold">Sample Value</label>
+                    <label for="sampleValue" class="form-label fw-bold">From Value</label>
                     <input type="number" class="form-control" id="sampleValue" value="1" onchange=convertedValue()
                         onkeyup=convertedValue()>
                 </div>
 
                 <!-- converted or to value -->
                 <div class="col-md-5">
-                    <label for="convertedValue" class="form-label fw-bold">Converted Value</label>
+                    <label for="convertedValue" class="form-label fw-bold">To Value</label>
                     <input type="number" class="form-control" id="convertedValue" onchange=sampleValue()
                         onkeyup=sampleValue()>
                 </div>
